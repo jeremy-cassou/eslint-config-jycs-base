@@ -1,18 +1,18 @@
-# @jycs/eslint-config-jycs-base
+# eslint-config-jycs-base
 
 ESLint rule set for JavaScript projects
 
 ## Install
 ```
 npm install --save-dev eslint eslint-config-airbnb-base eslint-import-resolver-alias
-npm install --save-dev @jycs/eslint-config-jycs-base
+npm install --save-dev eslint-config-jycs-base
 ```
 
 # .eslintrc.js file example
 ```javascript
 module.exports = {
   root: true,
-  extends: ['@jycs/eslint-config-jycs-vue'],
+  extends: ['eslint-config-jycs-vue'],
 }
 ```
 
