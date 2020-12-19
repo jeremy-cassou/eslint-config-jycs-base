@@ -41,6 +41,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/extensions': ['error', 'always', {
       js: 'never',
+      ts: 'never',
       vue: 'never',
     }],
   },
